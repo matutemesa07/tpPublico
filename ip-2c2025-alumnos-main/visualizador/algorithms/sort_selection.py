@@ -36,9 +36,9 @@ def step():
                 min_idx = j
 
             # Avanzamos j para el próximo paso
-            j += 1
+            j =j+ 1
 
-            # Devolvemos highlight, pero sin swap
+            # Devolvemos, pero sin swap
             return {
                 "a": a,
                 "b": b,
