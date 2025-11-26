@@ -46,7 +46,7 @@ def step():
                 "done": False
             }
 
-        # Si j == n, terminó el barrido → pasamos a fase swap
+        # Si j == n, terminó el recorrido → pasamos a fase swap
         fase = "swap"
 
     # ------------------------- FASE 2: SWAP -------------------------
