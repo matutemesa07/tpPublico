@@ -25,7 +25,7 @@ def step():
     # ------------------------- FASE 1: BUSCAR -------------------------
     if fase == "buscar":
 
-        # Mientras j esté dentro del array:
+        # Mientras j esté dentro del largo de la lista:
         if j < n:
             # Comparamos items[j] con el mínimo actual items[min_idx]
             a = min_idx
